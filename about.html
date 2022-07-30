@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi's Cake blog | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="banner" onclick="closeNav();">
+            <div class="banner-container">
+                <div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner carousel-wrapper">
+                        <div class="item active">
+                            <img src="images/banner.png" alt="banner image">
+                        </div>
+
+                        <div class="item">
+                            <img src="images/banner2.jpg" alt="banner image">
+                        </div>
+
+                        <div class="item">
+                            <img src="images/banner3.jpg" alt="banner image">
+                        </div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <p>blog</p>
+                    <h1 class="brand-name">
+                        Chi's cake
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" onclick="collapsing()">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                </div>
+                <ul class="nav navbar-nav closed" id="navbar">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="drop-down">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Products</a>
+                        <ol class="dropdown-menu">
+                            <li><a href="index.html#classic_yellow_cake" onclick="collapsing();">Classic Yellow Cake</a ></li>
+                            <li><a href="index.html#coconut_bundt_cake" onclick="collapsing();">Coconut Bundt Cake</a></li>
+                            <li><a href="index.html#cream_cheese_pound_cake" onclick="collapsing();">Cream Cheese Pound Cake</a></li>
+                            <li><a href="index.html#germen_chocolate_cake" onclick="collapsing();">Germen Chocolate Cake</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="order.html">Order</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main onclick="closeNav();">
+        <article>
+            <h2>About Chi's Cake</h2>
+            <img src="images/yellow-cake-chocolate-frosting.jpg" alt="cake">
+            <p>
+                Hello and wellcome! I'm Michelle and I believe anyone can learn to confidently make recipes worthy of celebration.
+                <br><br> "I made your pavlova recipe today and it was delicious! As usual, your recipe was easy to follow. There's four of us here and there's only one third left. It'll be gone soon. Thanks for another great recipe!"
+                <br><br> We tried your weeknight bolognese recipe yesterday! Ohmmygosh, it was so good. My husband is still talking about it thi morning.
+                <br><br> Michelle, just wanted to tell you I made your beef stew recipe this weekend. Just incredible !! The ovenn method was perfect ans truly brought out the flavors.
+                <br><br> i just wanted to send you a quick email to tell you that really love your recipes. I have always loved to cook, but I haven't been much of a baker. I have been baking more and more and I find that recipes are always the best.
+                <br><br> Imagine your friends and coworker gobbing up those special treats you made for them. Imagine that the dish you made for Thanksgiving or those cookies for Christmas are all anyone is talking about and EVERYONE has asked you for
+                the recipe...
+            </p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 by Chi's Cake</p>
+    </footer>
+    <script src="javascript/responsive.js"></script>
+
+</body>
+
+</html>

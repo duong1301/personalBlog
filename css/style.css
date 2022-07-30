@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fff0ff;
+    font-family: 'Dancing Script', cursive;
+    color: #957575;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
+/* begin banner */
+
+.banner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-container {
+    width: 100%;
+    position: relative;
+}
+
+.carousel-wrapper {
+    min-height: 200px;
+    height: 350px;
+    width: 100%;
+}
+
+.carousel-wrapper img {
+    width: 100%;
+}
+
+.brand {
+    color: #f2f2f2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.brand p {
+    font-size: 2rem;
+}
+
+.brand-name {
+    background-color: rgba(197, 151, 111, 0.5);
+}
+
+
+/* end banner */
+
+
+/* begin nav */
+
+.nav.navbar-nav {
+    position: absolute;
+    width: 100%;
+    background-color: #fff0ff;
+}
+
+nav a {
+    color: #957575;
+    font-size: 2.4rem;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #957575;
+    padding: 1px;
+}
+
+
+/* end nav */
+
+main {
+    width: 900px;
+    margin: 10px auto;
+}
+
+article {
+    margin-bottom: 16px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+article a,
+article p {
+    font-size: 2.8rem;
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0;
+}
